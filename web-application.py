@@ -11,8 +11,8 @@ import plotly.graph_objects as go
 from typing import Dict, Any, List
 
 # Configuration
-PROJECT_ID = "gen-lang-client-0351304067"
-TOPIC_NAME = "streaming-data-topic"
+PROJECT_ID = "YOUR-PROJECT_ID"
+TOPIC_NAME = "YOUR-TOPIC-NAME"
 
 # Initialize Pub/Sub client
 @st.cache_resource
